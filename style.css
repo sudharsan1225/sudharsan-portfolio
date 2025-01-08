@@ -1,0 +1,567 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing:border-box;
+}
+.top-div {
+  height: 100dvh;
+  display:flex;
+  align-items:center;
+  background-image: url(images/watercolour-painting-7190-3250.avif);
+
+}
+.container-main {
+  display: flex;
+  
+}
+body{
+  overflow-x: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.container{
+    /* max-width: 1200px; */
+    display: flex;
+  width:90%;
+  margin:0 auto;
+    padding: 90px;
+    align-items:center;
+    background:white;
+  box-shadow:1px 1px 5px 2px rgba(0,0,0,0.1) ;
+  border-radius:15px;
+  /* position: absolute; */
+  
+}
+.container > div{
+    flex: 0 1 50%;
+}
+img{
+    width: 100%;
+  border-radius:30px;
+}
+.aside {
+  width: 300px;
+  height: 100dvh;
+  position: sticky;
+  top: 0;
+  background: rgb(245, 179, 47);
+  padding:10px;
+}
+.links{
+  margin-top: 100px;
+}
+.links a{
+  display:block;
+  text-align:center;
+  text-decoration: none;
+  line-height: 50px;
+  color: black;
+  
+}
+.main-div {
+  width: 100%;
+}
+.main{
+  height:100dvh;
+}
+.s1 {
+  padding-left: 75px;
+}
+#down{
+  padding: 50px 0;
+  padding-right: 1px;
+}
+
+.s3 {
+  text-align: center;
+
+}
+.s3 i{
+  margin: 20px;
+}
+.space{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}  
+.space > div{
+  flex: 1;
+}
+.highligt{
+  color:rgb(255, 186, 49);
+}  
+.heading{
+  font-size: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+   border: 2px dotted black;
+   margin-top: 10px;
+  
+}
+span{
+  color:#f5b32f;
+  font-size: x-large;
+
+}
+.para{
+  margin-right: 1px;
+}
+li{
+  line-height: 400%;
+}
+.btn {
+  background-color: #F9C107;
+  padding: 10px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-top:50px ;
+}
+.make{
+display: flex;
+justify-content: space-between;
+flex-direction: column;
+gap: 10px;
+}
+.intro{
+line-height: 60px;
+}
+.work{
+position: fixed;
+right: 75px;
+background-color:#f9c107;
+color: black;
+padding: 10px;
+border-radius: 40px;
+box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.435);
+margin: 20px;
+}
+.temp{
+margin-top: 20px;
+margin-bottom: 20px;
+color: black;
+}
+.temp:hover{
+background-color: black;
+color:white;
+border-radius: 50%;
+padding: 5px;
+transition: 0.5s;
+}
+.skil{
+font-size: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+   border: 2px dotted black;
+   margin-top: 10px;
+}
+.prot{
+font-size: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+   border: 2px dotted black;
+   margin-top: 10px;
+}
+.cont{
+font-size: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+   border: 2px dotted black;
+   margin-top: 10px;
+}
+#skill-html{
+font-size: 150px;
+
+}
+#skill-css{
+font-size:150px;
+
+
+}
+#skill-js{
+font-size:150px;
+
+
+}
+
+.java:hover{
+background-color: black;
+color: white;
+border:3px solid #f5b32f;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+}
+
+.market:hover{
+background-color: black;
+color: white;
+border:3px solid #f5b32f;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+}
+
+.making:hover{
+background-color: black;
+color: white;
+border:3px solid #f5b32f;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 20px;
+}
+.contact-form {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #fff5cc;
+  padding: 20px;
+  border: 2px solid #ffd700;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.contact-form h1 {
+  text-align: center;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #996600;
+}
+.form-group input, .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffd700;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #fff9e6;
+}
+.form-group textarea {
+  resize: vertical;
+  height: 100px;
+}
+form{
+  width: 500px;
+  margin: 0 auto;
+  background-color:#fff9e6;
+  border-radius: 7px;
+  padding: 10px;
+  text-align: center;
+  margin-top: 30px;
+}
+.submit-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background: #ffcc00;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background: #e6b800;
+}
+.place{
+display: flex;
+flex-direction: row;
+width: fit-content;
+justify-content: center;
+text-align: center;
+margin: 0px auto;
+margin-top: 50px;
+flex-wrap: wrap;
+gap: 20px;
+padding: 90px;
+}
+
+.place div{
+width: 200px;
+& img{
+  width: 100%;
+  object-fit: contain;
+}
+}
+.sa:hover{
+color:#F9C107;
+background-color: black;
+border-radius: 20px;
+box-shadow: 10px 10px 10px whitesmoke;
+}
+
+.life{
+height: 300px;
+width: 300px;
+background-color: rgba(128, 128, 128, 0.308);
+border-radius: 20px;
+box-shadow: 10px 10px 10px black;
+margin-right:100px; 
+}
+.hills{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+gap: 50px;
+margin-top: 50px;
+
+}
+.s3{
+/* display: flex;
+flex-direction: column;
+align-items: center; */
+}
+/* .s3 h2{
+width: 100%;
+} */
+.contact-div{
+width: 100%;
+display: flex;
+margin-top: 50px;
+justify-content: space-between;
+align-items: center;
+flex: 1;
+flex-direction: column;
+}
+.phone-email{
+display: flex;
+font-size: xx-large;
+}
+.design{
+font-size: xx-large;
+align-self: flex-end;
+width: fit-content;
+
+}
+.thanks{
+justify-self: flex-end;
+margin-top: 10%;
+}
+.insta:hover{
+color:rgb(249, 193, 7);
+}
+.insta{
+color: black;
+}
+.email>a{
+color: black;
+text-decoration: none;
+}
+.proje{
+text-align: center;
+color: black;
+}
+
+
+/* Original CSS remains intact */
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .container {
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+  .container > div {
+    flex: 0 1 100%;
+    margin-bottom: 20px;
+  }
+  .aside {
+   display: none;
+  }
+  .heading, .skil, .prot, .cont {
+    font-size: 80px;
+  }
+  .btn {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  .aside {
+    display: none;
+  }
+  .top-div {
+    flex-direction: column;
+    height: auto;
+  }
+  .container {
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  .container > div {
+    flex: 0 1 100%;
+    margin-bottom: 20px;
+  }
+  .heading, .skil, .prot, .cont {
+    font-size: 50px;
+  }
+  .btn {
+    font-size: 0.9em;
+    padding: 8px 15px;
+  }
+  .place div {
+    width: 150px;
+  }
+  #skill-html, #skill-css, #skill-js {
+    font-size: 120px;
+  }
+  
+  .contact-form {
+    padding: 15px;
+    margin: 20px auto;
+    width: 90%;
+  }
+  .contact-form h1 {
+    font-size: 1.5rem;
+  }
+
+
+  .hills {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  .life {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .life img {
+    height: auto;
+    width: 100%;
+    max-width: 300px; /* Maintain a maximum size for images */
+    border-radius: 15px; /* Optional styling */
+  }
+
+  .place {
+    flex-wrap: wrap;
+    gap: 15px;
+    padding: 20px;
+  }
+
+  .making, .market, .java {
+    flex: 0 1 45%; /* Adjust to fit two items per row */
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .making img, .market img, .java img {
+    width: 80%; /* Resize for smaller screens */
+    max-width: 150px; /* Maintain a maximum size */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px;
+    border-radius: 10px; /* Optional styling */
+  }
+
+  .rating {
+    font-size: 1rem; /* Adjust star rating font size */
+  }
+
+  .skil, .prot {
+    font-size: 50px; /* Resize headings for better readability */
+  }
+
+  .proje {
+    font-size: 1.2rem; /* Adjust portfolio text size */
+  }
+
+
+  .main-s3{
+    margin-top: 280px;
+  }
+
+  .work{
+    position: fixed;
+    right: 20px;
+    background-color:#f9c107;
+    color: black;
+    padding: 10px;
+    border-radius: 40px;
+    box-shadow: 10px 20px 10px rgba(0, 0, 0, 0.435);
+    margin: 20px;
+    }
+  
+}
+
+@media (max-width: 480px) {
+  .aside {
+    padding: 5px;
+    text-align: center;
+  }
+  .links a {
+    font-size: 0.9em;
+    line-height: 40px;
+  }
+  .container {
+    padding: 10px;
+    flex-direction: column;
+  }
+  .heading, .skil, .prot, .cont {
+    font-size: 40px;
+  }
+  .btn {
+    font-size: 0.8em;
+    padding: 7px 10px;
+  }
+  .place div {
+    width: 100px;
+  }
+  #skill-html, #skill-css, #skill-js {
+    font-size: 100px;
+  }
+  .contact-form {
+    padding: 10px;
+    margin: 10px auto;
+  }
+  .contact-form h1 {
+    font-size: 1.2rem;
+  }
+  .contact-div {
+    flex-direction: column;
+  }
+  .phone-email {
+    font-size: large;
+  }
+  .intro {
+    line-height: 40px;
+  }
+  .temp:hover {
+    border-radius: 10px;
+  }
+  .life {
+    height: 200px;
+    width: 200px;
+    margin-right: 0;
+  }
+  .hills {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .work {
+    position: static;
+    margin: 10px auto;
+  }
+}
