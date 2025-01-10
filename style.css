@@ -236,10 +236,11 @@ html {
   align-items: center;
   padding: 40px 15px 40px 60px;
   margin: auto;
+  box-shadow: 10px 10px 50px gray;
 }
 .skill-img-div {
   width: 95%;
-
+min-height: 250px;
   padding: 25px;
   box-shadow: 10px 10px 50px gray;
   border-radius: 20px;
@@ -273,13 +274,26 @@ html {
 }
 .skill-eng-img {
   display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  width: 90%;
+}
+.progress{
+  display: flex;
   gap: 20px;
-  justify-content: space-evenly;
+  padding-left: 0px;
+}
+
+.progress p{
+  border-left: 2px solid #cda112;
+  padding-left: 15px;
 }
 .skill-eng-img div {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
+  justify-content: center;
 }
 .skill-img-div:hover {
   scale: 1.1;
@@ -402,6 +416,12 @@ html {
   background-color: #cda112;
   height: 10px;
   width: 70%;
+
+}
+.perscentage{
+  position: absolute;
+  top: -30px;
+  right: -30px;
 
 }
 .skill-photo {
