@@ -272,6 +272,11 @@ img {
   border-radius: 0.5rem;
   box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
 }
+
+.skills__data img{
+  margin-right: var(--mb-2);
+}
+
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
