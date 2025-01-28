@@ -11,17 +11,16 @@ const showMenu = (toggleId, navId) =>{
 }
 showMenu('nav-toggle','nav-menu')
 
-/*==================== REMOVE MENU MOBILE ====================*/
+
 const navLink = document.querySelectorAll('.nav__link')
 
 function linkAction(){
     const navMenu = document.getElementById('nav-menu')
-    // When we click on each nav__link, we remove the show-menu class
+    
     navMenu.classList.remove('show')
 }
 navLink.forEach(n => n.addEventListener('click', linkAction))
 
-/*==================== SCROLL SECTIONS ACTIVE LINK ====================*/
 const sections = document.querySelectorAll('section[id]')
 
 const scrollActive = () =>{
@@ -42,13 +41,13 @@ const scrollActive = () =>{
 }
 window.addEventListener('scroll', scrollActive)
 
-/*===== SCROLL REVEAL ANIMATION =====*/
+
 const sr = ScrollReveal({
     origin: 'top',
     distance: '60px',
     duration: 2000,
     delay: 200,
-//     reset: true
+
 });
 
 sr.reveal('.home__data, .about__img, .skills__subtitle, .skills__text',{}); 
@@ -65,14 +64,14 @@ document.querySelectorAll('.project-card').forEach(card => {
 
   
 function validateForm() {
-    // Clear previous errors
+    
     document.getElementById('name-error').style.display = 'none';
     document.getElementById('email-error').style.display = 'none';
     document.getElementById('message-error').style.display = 'none';
 
     let isValid = true;
 
-    // Name validation
+
     let name = document.getElementById('name').value;
     if (name === "") {
         document.getElementById('name-error').textContent = "Name is required.";
@@ -80,7 +79,6 @@ function validateForm() {
         isValid = false;
     }
 
-    // Email validation
     let email = document.getElementById('email').value;
     let emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
     if (email === "") {
@@ -93,7 +91,7 @@ function validateForm() {
         isValid = false;
     }
 
-    // Message validation
+   
     let message = document.getElementById('message').value;
     if (message === "") {
         document.getElementById('message-error').textContent = "Message cannot be empty.";
@@ -101,6 +99,6 @@ function validateForm() {
         isValid = false;
     }
 
-    // Return true if all fields are valid
+    
     return isValid;
 }

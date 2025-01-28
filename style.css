@@ -164,6 +164,7 @@ img {
 .level {
   font-size: 0.9em;
   color: #555;
+  margin-top: 20px;
 }
 
 @media (max-width: 600px) {
@@ -268,6 +269,7 @@ img {
 }
 .home__blob {
   fill: var(--first-color);
+  margin-bottom: 135px;
 }
 .home__blob-img {
   width: 360px;
@@ -315,7 +317,7 @@ img {
   margin-bottom: var(--mb-4);
 }
 .skills__data {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
   position: relative;
@@ -329,7 +331,14 @@ img {
 .skills__data img{
   margin-right: var(--mb-2);
 }
-
+.dum{
+  display: flex;
+  justify-content: space-between;
+}
+.level{
+  display: flex;
+  justify-content: space-between;
+}
 .skills__icon {
   font-size: 2rem;
   margin-right: var(--mb-2);
@@ -341,8 +350,8 @@ img {
 }
 .skills__bar {
   position: absolute;
-  left: 0;
-  bottom: 0;
+  left: 20px;
+  bottom: 40px;
   background-color: var(--first-color);
   height: 0.25rem;
   border-radius: 0.5rem;
