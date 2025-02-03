@@ -363,11 +363,14 @@ img {
 .skills__html {
   width: 60%;
 }
+.skills__ps{
+width: 60%;
+}
 .skills__css {
-  width: 50%;
+  width: 60%;
 }
 .skills__js {
-  width: 30%;
+  width: 40%;
 }
 
 .skills__sql  {
