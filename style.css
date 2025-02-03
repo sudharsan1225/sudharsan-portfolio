@@ -249,6 +249,7 @@ img {
 }
 .home__title-color {
   color: var(--first-color);
+  font-size: 80%;
 }
 .home__social {
   display: flex;
